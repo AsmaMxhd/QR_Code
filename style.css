@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    padding: 150px 50px;
+}
+
+.container{
+    width: 100%;
+    max-width: 210px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 12px;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info{
+    font-family: Outfit;
+    font-size: 15px;
+    margin: 15px;
+}
+
+#lineone{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+}
+
+#linetwo{
+    font-weight: 400;
+    font-size: 11px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
